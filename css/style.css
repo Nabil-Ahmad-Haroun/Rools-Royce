@@ -1,0 +1,826 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    }
+    body{
+        height: 5150px;
+        background-color: rgb(255, 255, 255);
+    }
+    /* section1 nav & hero */
+    .nav{
+        width: 100%;
+        height: 65px;
+        background-color: rgb(72, 75, 75);
+        position: absolute;
+        position: fixed;
+        z-index: 2;
+       
+    }
+    .nav img{
+        width: 40px;
+        margin-left: 150px;
+        float: left;
+        transform: translate(0,35%);
+    }
+    ul li{
+        list-style: none;
+        display: inline;
+        float: right;
+        margin-left: 20px;
+        color:rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 18px;
+    }
+    ul{
+        padding: 20px 150px;
+    
+    }
+    .hero{
+        width: 100%;
+        background-image:url(../image/hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        
+    }
+    .text{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin-left: 60px;
+        
+    }
+    .text h1{
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 40px;   
+    }
+    .text p{
+        color:whitesmoke;
+        font-weight: bold;
+        line-height: 20px;
+    }
+    .text button{
+         background-color:black;
+        color: whitesmoke;
+        size: 20px;
+        display: inline;
+        padding: 2px 2px;
+        border-radius:5px;
+        border-color: black;
+        border-top:0;
+        border-left:0;
+        transition: 0.3s;
+    }
+    .text button:hover{
+        background-color: rgb(71, 68, 68);
+    }
+    
+    .ph{
+        width: 95px;
+        height: 30;
+        position: relative;
+    
+    
+    }
+    .phan .ph::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 4px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        border-radius: 4px;
+    
+    }
+    .phan .ph:hover::after{
+        width: 100%;
+    }
+    
+    .sp{
+        width: 75px;
+        height: 30;
+        position: relative;
+    
+    
+    }
+    .spec .sp::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 4px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        border-radius: 4px;
+    
+    }
+    .spec .sp:hover::after{
+        width: 100%;
+    }
+    
+    .gh{
+        width: 60px;
+        height: 30;
+        position: relative;
+    
+    
+    }
+    .ghos .gh::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 4px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        border-radius: 4px;
+    
+    }
+    .ghos .gh:hover::after{
+        width: 100%;
+    }
+    
+    .bo{
+        width: 90px;
+        height: 30;
+        position: relative;
+    
+    
+    }
+    .boa .bo::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 4px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        border-radius: 4px;
+    
+    }
+    .boa .bo:hover::after{
+        width: 100%;
+    }
+    .da{
+        width: 60px;
+        height: 30;
+        position: relative;
+    
+    
+    }
+    .daw .da::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 4px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        border-radius: 4px;
+        
+    
+    }
+    .daw .da:hover::after{
+        width: 100%;
+    
+    }
+    /* section2 wlcome & about us */
+    .heromark{
+        width: 100%;
+        height: 1570px;
+        background-image: url(../image/hero\ maark.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-top: 200px;
+    }
+    .welcom{
+        width: 100%;
+        height: 450px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+    .welcom h2{
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+    }
+    .welcom .welcomunderline{
+        width: 650px;
+        height: 3px;
+        margin: 0 auto;
+        background-color: white;
+    }
+    .welcom p{
+        text-align: left;
+        margin-left: 20px;
+    }
+    
+    
+    
+    
+    .journey{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+    .journey h2{
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+        line-height: 80px;
+    }
+    /* section 3 boat tail  */
+    .title-boat h2{
+        padding-top: 50px;
+        color: white;
+        text-align: center;
+    }
+    
+    .boatunderline{
+        width: 300px;
+        height: 3px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+    .continer-boat{
+      
+        width: 100%;
+        height: 800px;
+        margin: auto;
+        background-color: rgba(3, 3, 3, 0.733);
+        overflow: auto;
+        
+       
+    }
+    .box-boat{
+        float: left;
+        width: 30%;
+        
+        
+    }
+    .box-boat-margin{
+        padding: 0 2.5%;
+    }
+    .img-boat img{
+        width: 100%;
+    }
+    .button-boat{
+        height: 50px;
+        position: relative;
+        
+    }
+    .button-boat button{
+        background-color: black;
+        color: white;
+        size: 20px;
+        padding: 2px 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-top:0;
+        border-left:0;
+        transition: 0.5s;
+        border-radius: 5px;
+        
+    }
+    .button-boat button:hover{
+        background-color: rgba(255, 255, 255, 0.733);
+        color: rgb(0, 0, 0);
+    }
+    .overlay-boat{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.863);
+        opacity: 0;
+        transition: 0.5s;
+       
+        
+    }
+    .img-boat{
+        position: relative;
+    }
+    .img-boat:hover .overlay-boat{
+        opacity: 1;
+    }
+    .overlay-comment{
+        padding-left: 80px;
+        padding-top: 30px;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .space-end-of-boat{
+        width: 100%;
+        height: 3px;
+        background-color: rgba(0, 0, 0, 0.966);
+       
+    }
+    
+    /* section 4 dawn */
+    
+    
+    .heromark2{
+        width: 100%;
+        height: 1000px;
+        background-image: url(../image/symbol.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-top: 200px;
+        
+       
+    }
+    .space-front-of-dawn{
+        background-color: black;
+        width: 100%;
+        height: 3px;
+    }
+    .black-color{
+        background-color: rgba(179,178,187,0.74);
+        
+       
+    }
+    
+    .title-dawn h2{
+        padding-top: 50px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .dawnunderline{
+        width: 250px;
+        height: 3px;
+        margin: 0 auto;
+        background-color: rgb(0, 0, 0);
+        margin-bottom: 50px;
+       
+    }
+    .continer-dawn{
+        width: 80%;
+        /* margin: 100px auto; */
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto;
+       
+        
+       
+        
+    }
+    .box-dawn{
+        float: left;
+        width: 30%;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        position: relative;
+        line-height: 30px;
+        font-weight: bold;
+        color: aliceblue;
+        background-color: black;  
+    }
+    .box-dawn-margin{
+        margin: 0 5%;
+    }
+    .img-dawn img{
+        width: 100%; 
+        height: 230px; 
+    }
+    .overlay-dawn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(66, 65, 65, 0.658);
+        opacity: 0;
+        transition: 0.9s;
+        z-index: 1;
+        
+    }
+    .img-dawn{
+        position: relative;
+    }
+    .overlay-dawn i{
+        color: rgb(3, 3, 3);
+        display: block;
+        width: 40px;
+        background-color: rgb(255, 255, 255);
+        line-height: 40px;
+        border-radius: 20px;
+        margin: 3px;
+        
+    }
+    .box-dawn:hover .overlay-dawn{
+        opacity: 1;
+        
+    }
+    
+    .box-dawn::after{
+        position: absolute;
+        content: '';
+    
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+        height: 0%;
+    
+        background-color: rgba(36, 36, 36, 0.411);
+        transition: 0.5s;
+       
+    }
+    .box-dawn:hover::after{
+        height: 100%;
+    }
+    
+    
+    .space-mid-of-dawn{
+        width: 80%;
+        height: 3px;
+        margin: 50px auto;
+        background-color: rgb(0, 0, 0);
+        
+    }
+    .text-dawn{
+        padding: 3px;
+        
+    }
+    
+    /* section 5 dwn */
+    
+    .continer-dwn{
+        width: 80%;
+        margin: 100px auto;
+        overflow: auto;
+        
+       
+        
+    }
+    .title-dwn{
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .dwnunderline{
+        width: 335px;
+        height: 3px;
+        margin: 0 auto;
+        background-color: rgb(0, 0, 0);
+        margin-bottom: 50px;
+    }
+    .box-dwn{
+        float: left;
+        width: 30%;
+        background-color: rgb(159, 196, 183);
+        text-align: center;
+        position: relative;
+        line-height: 30px;
+        font-weight: bold;
+        color: aliceblue;
+        background-color: black;
+        border-radius: 15px;
+        
+        
+        
+    }
+    .box-dwn-margin{
+        margin: 0 5%;
+    }
+    .img-dwn img{
+        width: 100%;  
+        height: 230px; 
+    }
+    .overlay-dwn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20, 20, 20, 0.658);
+        opacity: 0;
+        transition: 0.9s;
+        z-index: 1;
+       
+    }
+    .img-dwn{
+        position: relative;
+    }
+    .overlay-dwn i{
+        color: white;
+        display: block;
+        width: 40px;
+        background-color: rgb(235, 161, 52);
+        margin-left: auto;
+        line-height: 40px;
+        
+    }
+    .box-dwn:hover .overlay-dwn{
+        opacity: 1;
+    }
+    .box-dwn::after{
+        position: absolute;
+        content: '';
+    
+        top: 0;
+        left: 0;
+    
+        width: 0%;
+        height: 100%;
+    
+        background-color: rgba(192, 155, 112, 0.411);
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+    .box-dwn:hover::after{
+        width: 100%;
+    
+    }
+    
+    .text-dwn{
+        padding: 3px;
+    }
+    .space-end-of-dawn{
+        width: 100%;
+        height: 3px;
+        margin: 50px auto;
+        background-color: rgb(0, 0, 0);
+    }
+    /* section 6&7 wraith*/
+    
+    .heroend{
+        width: 100%;
+        height: 1477px;
+        background-image: url(../image/finel.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-top: 200px;
+    }
+    
+    
+    .title-phantom h2{
+        padding-top: 50px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .phantomunderline{
+        width: 300px;
+        height: 3px;
+        margin: 0 auto;
+        background-color: rgb(0, 0, 0);
+        margin-bottom: 50px;
+    }
+    .space-front-of-phantom{
+        width: 100%;
+        height: 3px;
+        background-color: rgba(0, 0, 0, 0.966);
+       
+    }
+    
+    
+    .space-mid-of-phantom{
+        width: 700%;
+        height: 3px;
+        background-color: rgba(0, 0, 0, 0.966);
+        margin: auto;
+       
+    }
+    .back-ground-phantom{
+        background-color: rgba(101, 140, 163, 0.514);
+    }
+    
+    .continer-phantom{
+        width: 100%;
+        margin: auto;
+        overflow: auto;
+    }
+    .box-phantom{
+        float: left;
+        width: 30%;
+        position: relative;
+        border-radius: 15px;
+        
+       
+    }
+    .img-phantom img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .box-phantom-margin{
+     margin: 0 2.5%;
+    }
+    .left-margin{
+        margin-left: 2.5%;
+    
+    }
+    .right-margin{
+        margin-right: 2.5%;
+    }
+    .img-phantom{
+        position: relative;
+    }
+    .overlay-phantom{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(22, 24, 23, 0.842);
+        opacity: 0;
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+    .box-phantom:hover .overlay-phantom{
+        opacity: 1;
+    }
+    .box-phantom::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:0;
+        height: 100%;
+        background-color: rgba(68, 136, 141, 0.253);
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+    .box-phantom:hover::after{
+    width: 100%;
+    
+    }
+    .overlay-phantom-comment{
+        padding-left: 80px;
+        padding-top: 30px;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: antiquewhite;
+    }
+    .space-mid-of-phantom{
+        width: 80%;
+        height: 3px;
+        margin: 50px auto;
+        background-color: rgb(0, 0, 0);
+    }
+    .overlay-phantom-comment i{
+        font-size: 28px ;
+        color:rgb(255, 255, 255);
+    }
+    
+    /* section */
+    .title-phanto h2{
+        
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .phantounderline{
+        width: 360px;
+        height: 3px;
+        margin: 0 auto;
+        background-color: rgb(0, 0, 0);
+        margin-bottom: 50px;
+    }
+    .space-front-of-phanto{
+        width: 100%;
+        height: 3px;
+        background-color: rgba(0, 0, 0, 0.966);
+       
+    }
+    
+    
+    /* .space-mid-of-phanto{
+        width: 700%;
+        height: 3px;
+        background-color: rgba(0, 0, 0, 0.966);
+        margin: auto;
+       
+    } */
+    .back-ground-phanto{
+        background-color: rgba(101, 140, 163, 0.514);
+    }
+    
+    .continer-phanto{
+        width: 100%;
+        margin: auto;
+        overflow: auto;
+    }
+    .box-phanto{
+        float: left;
+        width: 30%;
+        position: relative;
+        border-radius: 15px;
+        
+       
+    }
+    .img-phanto img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .box-phanto-margin{
+     margin: 0 2.5%;
+    }
+    .left-margin{
+        margin-left: 2.5%;
+    
+    }
+    .right-margin{
+        margin-right: 2.5%;
+    }
+    .img-phanto{
+        position: relative;
+    }
+    .overlay-phanto{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(22, 24, 23, 0.842);
+        opacity: 0;
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+    .box-phanto:hover .overlay-phanto{
+        opacity: 1;
+    }
+    .box-phanto::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width:100%;
+        height: 0;
+        background-color: rgba(38, 63, 66, 0.322);
+        transition: 0.5s;
+        border-radius: 15px;
+    }
+    .box-phanto:hover::after{
+    height: 100%;
+    
+    }
+    .overlay-phanto-comment{
+        padding-left: 20px;
+        padding-top: 30px;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: antiquewhite;
+       
+    }
+    .space-mid-of-phanto{
+        width: 80%;
+        height: 3px;
+        margin: 50px auto;
+        background-color: rgb(0, 0, 0);
+    }
+    .overlay-phanto-comment i{
+        font-size: 28px ;
+        color:rgb(255, 255, 255);
+        
+       
+    }
+    /* section end */
+    .continer-end{
+        height: 255px;
+        margin-top: 200px;
+        background-color: rgba(0, 0, 0, 0.514);
+        text-align: center;
+        
+    }
+    .continer-end-icon i{
+        font-size: 40px;
+        margin-top: 140px;
+        transition: 0.2s;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* background-color: rgba(139, 0, 139, 0.425); */
+        
+    }
+    .continer-end i:hover{
+        transform: translate(0% ,-10%);
+    }
+    .continer-end p{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
